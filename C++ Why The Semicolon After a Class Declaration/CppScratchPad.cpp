@@ -7,8 +7,16 @@ using std::string;
 // ------------------------------------ C++ Why The Semicolon After a Class Declaration ----------------------------------
 //ref linK:https://www.youtube.com/watch?v=E-309a2ngsY&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=3
 
+struct MyType
+{
+	void foo() {}
+};
 
-
+void main()
+{
+	MyType instance;
+	instance.foo();
+}
 
 
 
