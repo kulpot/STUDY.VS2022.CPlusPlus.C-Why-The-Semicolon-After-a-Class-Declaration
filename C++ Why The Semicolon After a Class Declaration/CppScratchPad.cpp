@@ -7,21 +7,34 @@ using std::string;
 // ------------------------------------ C++ Why The Semicolon After a Class Declaration ----------------------------------
 //ref linK:https://www.youtube.com/watch?v=E-309a2ngsY&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=3
 
+// for C++	just use a semicolon at the end of a class because its required
+
 struct MyType
 {
 	void foo() {}
-};		// semicolon here -> means
+};		// semicolon here -> means its required
 
-int main()
+int myInt;				// int 4 bytes
+float anotherDataElement;
+
+class MyClass		// Declaring a class called MyClass
 {
-	return 0;
-}
+};
+//} instance;		// for C++	just use a semicolon at the end of a class
 
-//void main()
+MyClass anotherClass;		// anotehrClass is an instance of MyClass
+
+//int main()
 //{
-//	MyType instance;
-//	instance.foo();
+//	return 0;
 //}
+
+void main()
+{
+	myInt = 5;
+	//MyType instance;
+	//instance.foo();
+}
 
 
 
