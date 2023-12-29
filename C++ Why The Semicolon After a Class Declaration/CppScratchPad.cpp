@@ -8,6 +8,8 @@ using std::string;
 //ref linK:https://www.youtube.com/watch?v=E-309a2ngsY&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=3
 
 // for C++	just use a semicolon at the end of a class because its required
+// At the end of a declaration of a data type you put a semicolon.
+// A class is a data type.
 
 struct MyType
 {
