@@ -10,13 +10,18 @@ using std::string;
 struct MyType
 {
 	void foo() {}
-};
+};		// semicolon here -> means
 
-void main()
+int main()
 {
-	MyType instance;
-	instance.foo();
+	return 0;
 }
+
+//void main()
+//{
+//	MyType instance;
+//	instance.foo();
+//}
 
 
 
